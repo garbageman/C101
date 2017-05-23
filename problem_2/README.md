@@ -1,10 +1,10 @@
 # Problem 2
-Write a function that given an array of integers, reverses the array and returns
-the reversed version of the array.
+Write a function that given an array of integers, finds the minimum element in
+the array.
 
 ## Example
 
 ```
-> a = reverse_array([1,2,3,4]);
-> a = [4,3,2,1];
+> a = min_element([1,2,3,4]);
+> a = 1;
 ```

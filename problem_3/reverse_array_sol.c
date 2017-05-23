@@ -1,5 +1,5 @@
 /**
-Problem 2
+Problem 3
 Write a function reverse_array, that given an array, returns an array with the
 same contents in the opposite order. This is an array of integers for simplicity.
 @author garbagman
