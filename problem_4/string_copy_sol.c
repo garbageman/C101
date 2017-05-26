@@ -24,9 +24,9 @@ int main() {
   char s1[STRING_LENGTH] = "UMD";
   char s2[STRING_LENGTH];
 
-  min = min_element(s1, s2);
+  string_copy(s1, s2);
 
-  printf("S2 is %s",s2);
+  printf("S2 is %s\n",s2);
 
   return 0;
 }
