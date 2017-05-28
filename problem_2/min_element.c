@@ -14,7 +14,7 @@ int min_element(int * array, int array_size) {
 }
 
 int main() {
-  int array[4] = TEST_ARRAY;
+  int array[TEST_SIZE] = TEST_ARRAY;
   int min;
 
   min = min_element(array, TEST_SIZE);

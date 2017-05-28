@@ -14,13 +14,13 @@ int * reverse_array(int * array, int array_size) {
 }
 
 int main() {
-  int array[4] = TEST_ARRAY;
+  int array[TEST_SIZE] = TEST_ARRAY;
   int * reversed;
   int i;
 
   reversed = reverse_array(array, TEST_SIZE);
 
-  for (i = 0; i < 4; i++) {
+  for (i = 0; i < TEST_SIZE; i++) {
     printf("%d ", reversed[i]);
   }
   printf("\n");
